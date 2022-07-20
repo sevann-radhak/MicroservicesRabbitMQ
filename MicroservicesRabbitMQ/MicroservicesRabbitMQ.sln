@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{6610AF5E-F012-428A-B909-41D32B5C38F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{FDF14391-A8A7-4764-A6BE-1612611F9CF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Bus", "Infra.Bus", "{EB1D5AC8-31DD-452F-BEC1-7E6502D734E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{100BE682-582B-4AA7-9A99-664ACF7C44A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroservicesRabbitMQ.Domain.Core", "MicroservicesRabbitMQ.Domain.Core\MicroservicesRabbitMQ.Domain.Core.csproj", "{ACAAB52C-8F5A-46BE-9A05-B17569921FF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicesRabbitMQ.Infra.Bus", "MicroservicesRabbitMQ.Infra.Bus\MicroservicesRabbitMQ.Infra.Bus.csproj", "{58A6E26B-A44E-41F0-BCBA-BB7D2B1920DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACAAB52C-8F5A-46BE-9A05-B17569921FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACAAB52C-8F5A-46BE-9A05-B17569921FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACAAB52C-8F5A-46BE-9A05-B17569921FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACAAB52C-8F5A-46BE-9A05-B17569921FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58A6E26B-A44E-41F0-BCBA-BB7D2B1920DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58A6E26B-A44E-41F0-BCBA-BB7D2B1920DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58A6E26B-A44E-41F0-BCBA-BB7D2B1920DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58A6E26B-A44E-41F0-BCBA-BB7D2B1920DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACAAB52C-8F5A-46BE-9A05-B17569921FF1} = {FDF14391-A8A7-4764-A6BE-1612611F9CF2}
+		{58A6E26B-A44E-41F0-BCBA-BB7D2B1920DF} = {EB1D5AC8-31DD-452F-BEC1-7E6502D734E9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6ED1A9A-C4E0-4292-AD98-EAFC93F2F445}
+	EndGlobalSection
+EndGlobal
